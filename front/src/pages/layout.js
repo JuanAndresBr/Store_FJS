@@ -1,5 +1,5 @@
 import styles from "./inicio.module.css";
-import NavBar from "@/Components/NavBar";
+import NavBar from "@/Components/NavBar/NavBar";
 
 export default function Layout({ children }) {
   return (

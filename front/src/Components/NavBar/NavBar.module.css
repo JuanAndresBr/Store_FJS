@@ -1,4 +1,4 @@
-.box{
+.box {
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -7,10 +7,20 @@
   color: black;
   font-size: 20px;
 }
-.box h1{
-  font-size: 25px;
+.link {
   border-bottom: 2px solid var(--background-end);
+  font-size: 15px;
+  text-decoration: none !important;
+  color: black;
 }
-.box h1:hover{
+.link:hover{
   border-bottom: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  font-size: 15px;
 }
